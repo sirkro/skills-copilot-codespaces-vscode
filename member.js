@@ -1,6 +1,9 @@
 function skillsMember() {
   return {
-    name: 'John Doe',
-    skills: ['JavaScript', 'React', 'Node']
-  }
+    name: 'skillsMember',
+    restrict: 'E',
+    templateUrl: 'app/member/skillsMember.html',
+    controller: 'SkillsMemberController',
+    controllerAs: 'skillsMember'
+  };
 }
